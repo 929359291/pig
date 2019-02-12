@@ -4,12 +4,12 @@ MAINTAINER wangiegie@gmail.com
 
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
-RUN mkdir -p /pigx-upms
+RUN mkdir -p /pig-upms
 
-WORKDIR /pigx-upms
+WORKDIR /pig-upms
 
 EXPOSE 4000
 
-ADD ./pigx-upms/pigx-upms-biz/target/pigx-upms-biz.jar ./
+ADD ./pig-upms/pig-upms-biz/target/pig-upms-biz.jar ./
 
-CMD java -Djava.security.egd=file:/dev/./urandom -jar pigx-upms-biz.jar
+CMD java -Djava.security.egd=file:/dev/./urandom -jar pig-upms-biz.jar

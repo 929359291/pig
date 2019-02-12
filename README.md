@@ -46,8 +46,8 @@ pig
 ├── pig-eureka -- 服务注册与发现[8761]
 ├── pig-gateway -- Spring Cloud Gateway网关[9999]
 └── pig-upms -- 通用用户权限管理模块
-     └── pigx-upms-api -- 通用用户权限管理系统公共api模块
-     └── pigx-upms-biz -- 通用用户权限管理系统业务处理模块[4000]
+     └── pig-upms-api -- 通用用户权限管理系统公共api模块
+     └── pig-upms-biz -- 通用用户权限管理系统业务处理模块[4000]
 └── pigx-visual  -- 图形化模块 
      ├── pigx-monitor -- Spring Boot Admin监控 [5001]
      └── pigx-codegen -- 图形化代码生成[5003]
