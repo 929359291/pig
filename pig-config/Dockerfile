@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java:8_server-jre_unlimited
+FROM fabric8/java-alpine-openjdk8-jre
 
 MAINTAINER wangiegie@gmail.com
 
